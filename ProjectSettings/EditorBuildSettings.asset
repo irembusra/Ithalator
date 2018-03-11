@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9d673a0f481a06542889c4b5e01e3f76
+  - enabled: 1
+    path: Assets/Scenes/sceneMain.unity
+    guid: 786ff5eca8cdc7047a8077a8ccd85c5d
+  - enabled: 1
+    path: Assets/TruckWithAI.unity
+    guid: af24d5a956f0b4c93b879809e5220c76
+  - enabled: 1
+    path: "Assets/Yat\u0131r\u0131m.unity"
+    guid: 5f35a7e6579e34eb6ad2971bbcb7af64
