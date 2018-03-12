@@ -2611,7 +2611,7 @@ GameObject:
   - component: {fileID: 727894498}
   - component: {fileID: 727894497}
   m_Layer: 5
-  m_Name: TotalPara
+  m_Name: ToplamPara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2910,7 +2910,7 @@ GameObject:
   - component: {fileID: 848828984}
   - component: {fileID: 848828983}
   m_Layer: 5
-  m_Name: TotalTutar
+  m_Name: ToplamTutar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4250,7 +4250,7 @@ GameObject:
   - component: {fileID: 1291301024}
   - component: {fileID: 1291301023}
   m_Layer: 5
-  m_Name: Kilo
+  m_Name: ToplamKilo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,6 +4805,8 @@ GameObject:
   - component: {fileID: 1395015362}
   - component: {fileID: 1395015364}
   - component: {fileID: 1395015365}
+  - component: {fileID: 1395015367}
+  - component: {fileID: 1395015366}
   m_Layer: 5
   m_Name: GameManager2
   m_TagString: Untagged
@@ -4954,6 +4956,101 @@ MonoBehaviour:
   - {fileID: 1974144428}
   - {fileID: 183124905}
   duration: 1
+--- !u!114 &1395015366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395015361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6922c9db08f1bf54cb4b6d78ad108e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_removeButton:
+  - {fileID: 1533151697}
+  - {fileID: 568111809}
+  - {fileID: 692595952}
+  - {fileID: 1416226532}
+  i: 0
+--- !u!114 &1395015367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395015361}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5079f8bd8bbd9dc49b956a009beedc02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  i_toplamPara: 0
+  i_toplamTutar: 0
+  i_toplamlGelir: 0
+  i_ToplamKilo: 0
+  i_maxKilo: 0
+  i_kiloFark: 0
+  t_toplamTutar: {fileID: 848828983}
+  t_toplamPara: {fileID: 727894497}
+  t_toplamKilo: {fileID: 1291301023}
+  a_textArray:
+  - {fileID: 1501667483}
+  - {fileID: 179055569}
+  - {fileID: 1136134467}
+  - {fileID: 1678815735}
+  b_isPlaced_t: 0
+  b_TextRemoved_t: 0
+  i_gider_t: 0
+  i_gelir_t: 0
+  i_miktar_t: 0
+  i_array_t: 0
+  i_totalTutar_t: 0
+  i_kazanc_t: 0
+  i_kilo_t: 0
+  i_totalKilo_t: 0
+  i_urunTotalTutar_t: 0
+  i_urunTotalKilo_t: 0
+  s_text_t: 
+  b_isPlaced_h: 0
+  b_TextRemoved_h: 0
+  i_gider_h: 0
+  i_gelir_h: 0
+  i_miktar_h: 0
+  i_array_h: 0
+  i_totalTutar_h: 0
+  i_kazanc_h: 0
+  i_kilo_h: 0
+  i_totalKilo_h: 0
+  i_urunTotalTutar_h: 0
+  i_urunTotalKilo_h: 0
+  s_text_h: 
+  b_isPlaced_hs: 0
+  b_TextRemoved_hs: 0
+  i_gider_hs: 0
+  i_gelir_hs: 0
+  i_miktar_hs: 0
+  i_array_hs: 0
+  i_totalTutar_hs: 0
+  i_kazanc_hs: 0
+  i_kilo_hs: 0
+  i_totalKilo_hs: 0
+  i_urunTotalTutar_hs: 0
+  i_urunTotalKilo_hs: 0
+  s_text_hs: 
+  b_isPlaced_as: 0
+  b_TextRemoved_as: 0
+  i_gider_as: 0
+  i_gelir_as: 0
+  i_miktar_as: 0
+  i_array_as: 0
+  i_totalTutar_as: 0
+  i_kazanc_as: 0
+  i_kilo_as: 0
+  i_totalKilo_as: 0
+  i_urunTotalTutar_as: 0
+  i_urunTotalKilo_as: 0
+  s_text_as: 
 --- !u!1 &1416226532
 GameObject:
   m_ObjectHideFlags: 0

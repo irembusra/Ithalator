@@ -169,7 +169,7 @@ public class Fiyat : MonoBehaviour
             // Debug.Log(i_AS_Array);
             // Debug.Log(is_AS_Placed);
 
-            RemoveAçKapa();//remove buttonlarının textle birlikte gelmesi için
+         //   RemoveAçKapa();//remove buttonlarının textle birlikte gelmesi için
        
       
         t_totalTutar.text = "Tutar : " + i_totalTutar;
@@ -597,7 +597,7 @@ public class Fiyat : MonoBehaviour
         KiloHesap();
     }
     //remove//
-    public void FirstRemove()
+  /*  public void FirstRemove()
     {
         if (i_T_Array == 0 && is_T_Placed==true)
         {
@@ -672,7 +672,7 @@ public class Fiyat : MonoBehaviour
         {
             AgırSanayiRemove();
         }
-    }
+    }*/
     public void Hesaplama()
       {
         i_totalTutar = i_H_TotalTutar + i_T_TotalTutar + i_HS_TotalTutar + i_AS_TotalTutar;
@@ -714,7 +714,7 @@ public class Fiyat : MonoBehaviour
     }
 
 
-    public void RemoveAçKapa()
+   /* public void RemoveAçKapa()
     {
         for (int i = 0; i < textArray.Length; i++)
         {
@@ -729,7 +729,7 @@ public class Fiyat : MonoBehaviour
                 removeArray[j].SetActive(true);
             }
         }
-    }
+    }*/
     public void KiloHesap()
     {
        
